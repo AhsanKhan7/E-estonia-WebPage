@@ -1,0 +1,72 @@
+.graph-sec-3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1301b4;
+  height: 55vh;
+}
+
+.para-sec {
+  display: inline-block;
+  h3 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 30px;
+    margin-left: 50px;
+  }
+}
+
+.para-sec-3 {
+  height: 180px;
+  border: 1px solid #2a3dff;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 100;
+    font-family: "Sansita Swashed", cursive;
+    color: #acd4dd;
+    font-size: 60px;
+  }
+  h4 {
+    width: 180px;
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+  }
+}
+
+.middleGraph-sec-3 {
+  font-family: sans-serif;
+  padding-top: 120px;
+  padding-left: 40px;
+  p:nth-child(1) {
+    color: white;
+    margin-top: -30px;
+    font-size: 23px;
+  }
+}
+
+.middle1,
+.middle2 {
+  margin-top: 50px;
+}
+
+.middleGraph-sec-4 {
+  font-family: sans-serif;
+  margin-top: 120px;
+  padding-left: 40px;
+  p:nth-child(1) {
+    color: white;
+    margin-top: -30px;
+    font-size: 23px;
+  }
+}

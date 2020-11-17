@@ -1,0 +1,69 @@
+.briefingcenter {
+  height: 40vh;
+}
+
+.brief {
+  width: 100%;
+  img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+.brief:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    90deg,
+    #3c0078 40%,
+    rgba(60, 0, 120, 0.95) 60%,
+    rgba(60, 0, 120, 0)
+  );
+}
+
+.briefpage-heading {
+  margin-top: -350px;
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 1.1;
+  position: relative;
+  h1 {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 54px;
+    margin-top: -100px;
+    color: white;
+  }
+
+  .main_div {
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    .para1 {
+      font-size: 24px;
+      width: 600px;
+      line-height: 2rem;
+    }
+    .para2 {
+      margin-left: 50px;
+      font-size: 24px;
+      width: 600px;
+
+      line-height: 2rem;
+
+      button {
+        font-weight: 700;
+        margin-top: 30px;
+        margin-left: 10px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        border: 2px solid #694999;
+        border-radius: 20px;
+      }
+    }
+  }
+}

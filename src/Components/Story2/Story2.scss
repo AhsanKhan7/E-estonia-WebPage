@@ -1,0 +1,41 @@
+.story2 {
+  background-color: #1301ba;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+
+.allDiv {
+}
+
+.div1 {
+  display: flex;
+  margin-top: 30px;
+  .arrow {
+    margin-top: 30px;
+    margin-right: 20px;
+    img {
+      color: white;
+      width: 20px;
+    }
+  }
+  .year {
+    color: #bae6e8;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .svg {
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+  }
+  .text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}

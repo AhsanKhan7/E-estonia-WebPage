@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  font-family: sans-serif;
+  display: flex;
+  margin: 0px 40px;
+  padding-top: 20px;
+  color: white;
+  background: transparent;
+}
+
+.header > ul {
+  padding-left: 630px;
+  list-style-type: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.header > ul > li {
+  padding: 0px 10px;
+}
+
+.header > ul > img {
+  width: 10px;
+  height: 10px;
+}
