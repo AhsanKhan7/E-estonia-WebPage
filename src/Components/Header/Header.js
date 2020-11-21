@@ -14,7 +14,7 @@ const Header = () => {
         <li>blog</li>
         <li>toolkit</li>
         <li>vr estonia</li>
-        <img src={shortcut} alt="shortcut" />
+        <img src={shortcut} />
       </ul>
     </div>
   );

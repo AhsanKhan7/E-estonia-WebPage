@@ -2,3 +2,124 @@
   height: 110vh;
   background-color: #eff1f2;
 }
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 220px;
+
+  .sec1 {
+    margin-left: -80px;
+    ul {
+      list-style-type: none;
+      li {
+        color: #8b78a0;
+        font-size: 25px;
+        margin: 10px 0px;
+      }
+      li:hover {
+        color: #3e04a0;
+      }
+    }
+  }
+  .sec2 {
+    margin-left: -200px;
+    ul {
+      list-style-type: none;
+      li {
+        color: #8b78a0;
+        margin: 10px 0px;
+        font-size: 25px;
+      }
+      li:hover {
+        color: #3e04a0;
+      }
+    }
+  }
+  .sec3 {
+    ul {
+      list-style-type: none;
+      li {
+        text-align: right;
+        color: #8b78a0;
+        margin: 10px 0px;
+        font-size: 25px;
+      }
+      li:hover {
+        color: #3e04a0;
+      }
+      svg {
+        width: 10px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+
+  .sec1 {
+    display: flex;
+    margin-left: -180px;
+    svg {
+      width: 20px;
+      margin-right: 10px;
+      margin-top: 8px;
+    }
+    p {
+      font-size: 25px;
+      color: #8b78a0;
+    }
+  }
+  .sec2 {
+    display: flex;
+    margin-right: 10px;
+    svg {
+      width: 20px;
+      margin-right: 5px;
+      margin-top: 8px;
+    }
+    p {
+      font-size: 25px;
+      color: #8b78a0;
+    }
+    p:hover {
+      color: #3e04a0;
+    }
+  }
+  .sec3 {
+    display: flex;
+    margin-right: 15px;
+    svg {
+      width: 20px;
+      margin-right: 5px;
+      margin-top: 8px;
+    }
+    p {
+      font-size: 25px;
+      color: #8b78a0;
+    }
+    p:hover {
+      color: #3e04a0;
+    }
+  }
+  .sec4 {
+    display: flex;
+    margin-right: -150px;
+    svg {
+      width: 20px;
+      margin-right: 5px;
+      margin-top: 8px;
+    }
+    p {
+      font-size: 25px;
+      color: #8b78a0;
+    }
+    p:hover {
+      color: #3e04a0;
+    }
+  }
+}
